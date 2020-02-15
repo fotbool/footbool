@@ -11,22 +11,12 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 @RequestMapping(value = "/tim1")
 public class Controller1 {
-    @GetMapping("/trener")
+    @GetMapping("/home")
     public ModelAndView html() {
 
-        return new ModelAndView("trener");
+        return new ModelAndView("home");
     }
 
-    @GetMapping("/xaxacox")
-    public ModelAndView html1() {
 
-        return new ModelAndView("xaxacox");
-    }
-
-    @GetMapping("/haxtanakner")
-    public ModelAndView html32() {
-
-        return new ModelAndView("haxtanakner");
-    }
 
 }
