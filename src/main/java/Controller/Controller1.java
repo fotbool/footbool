@@ -1,4 +1,6 @@
-package com.example.prj.Controller;
+package Controller;
+
+
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 @RequestMapping(value = "/tim1")
-public class controller1 {
+public class Controller1 {
     @GetMapping("/trener")
     public ModelAndView html() {
 
