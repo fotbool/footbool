@@ -14,7 +14,7 @@ public class Controller1 {
     @GetMapping("/home")
     public ModelAndView html() {
 
-        return new ModelAndView("home");
+        return new ModelAndView("home(1)");
     }
 
 
